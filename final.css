@@ -1,0 +1,191 @@
+/* Reset  */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.7em;
+}
+
+a{
+    text-decoration: none;
+    color: rgb(48, 51, 51);
+}
+
+h1 ,h3{
+    padding-bottom: 20px;
+}
+
+
+
+/* Navbar horizontal  */
+
+#navbarHorizontal{
+    background-color: rgb(158, 194, 248);
+    color: cornsilk;
+    overflow:auto;
+}
+
+#navbarHorizontal h1 {
+    float: left;
+    padding-top: 10px;
+    margin-left: 10px;
+}
+
+#navbarHorizontal ul{
+    float: right;
+    list-style: none;   
+}
+
+#navbarHorizontal ul li a{
+    display: block;
+    padding: 10px;
+    margin-right: 20px;
+}
+
+/* Sections  */
+
+section{
+    display: flex;
+}
+
+/* nav section  */
+
+#navSection{
+    width: 20%;
+    height: 130vh;
+    background-color: rgb(185, 174, 174);
+}
+
+#navbarVertical ul{
+    margin-top: 15px;
+}
+
+#navbarVertical ul li {
+    list-style: none;
+    margin-bottom: 20px;
+    margin-left: 10px;
+}
+ 
+#navbarVertical ul li a{
+    display: block;
+}
+
+#navbarVertical ul li a:hover{
+    background-color: lightcoral;
+    color: wheat;
+}
+
+/* Info section  */
+#infoSection{
+    width: 80%;
+    height: 100vh;
+    /* border: 1px solid black; */
+}
+
+/* First container 150 X 150  */
+
+#firstContainer{
+    display: flex;
+}
+
+.box{
+    width: 20%;
+    height: 150px;
+    border: 1px solid black;
+    margin: 20px 30px;
+}
+
+
+.red{
+    background-color: red;
+}
+
+.green{
+    background-color:green;
+}
+
+.yellow{
+    background-color:yellow;
+}
+
+.blue{
+    background-color:blue;
+}
+
+
+/* Second container 300 X300 with regular content  */
+
+#secondContainer{
+    display: flex;
+}
+
+.div300{
+    width:40%;
+    height: 200px;
+    margin: 20px 30px;
+    border: 1px solid black;
+    background-color: pink;
+}
+
+.para{
+    width: 50%;
+    text-align: justify;
+    border: none;
+    margin-left: 0px;
+    background-color: white;
+}
+
+/* third Container form  */
+
+#thirdContainer{
+    margin: 20px 30px;
+}
+
+label[for="email"]{
+    margin-left: 400px;
+}
+
+input[type="text"]{
+    width: 40%;
+    padding: 10px;
+}
+
+input[type="email"]{
+    margin-left: 35px;
+    width: 40%;
+    padding: 10px;
+}
+
+input[type="submit"]{
+    margin-left: 35px;
+    width: 10%;
+    padding: 10px;
+}
+
+/* table container  */
+
+table{
+    margin: 20px 30px;
+    border: 1px solid black;
+}
+
+th,td{
+    border: 1px solid black;
+    width: 350px;
+    padding: 5px;
+}
+/* #table1{
+    border: 2px solid black;
+    float: left;
+    width: 70%;
+    margin: 20px 40px;
+}
+th ,td{
+    border: 1px solid black;
+    padding: 10px 20px;
+    width: 70%;
+} */
